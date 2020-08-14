@@ -1,0 +1,331 @@
+html,
+body {
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: rgb(241, 238, 238);
+    padding-top: 100px;
+    // background: red;
+
+    section {
+        width: 990px;
+        margin: auto;
+
+        // background: pink;
+        .cartSlist {
+            background: rgb(206, 201, 201);
+            // border: 1px solid white;
+        }
+
+        .cartSlist dl {
+            display: flex;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            border: 1px solid white;
+            margin-bottom: 5px;
+
+            dd {
+                margin-left: 0;
+                font-size: 12px;
+            }
+
+            .checkAll {
+                width: 75px;
+
+            }
+
+            .smmc {
+                flex: 1;
+            }
+
+            .fhz,
+            .price {
+                width: 96px;
+            }
+
+            .num {
+                width: 140px;
+            }
+
+            .jexj,
+            .cz {
+                width: 110px;
+            }
+        }
+
+
+    }
+}
+
+//商品结账
+.addChecked {
+    // background: grey;
+
+    padding: 15px 0;
+    border-bottom: 1px solid #000;
+    background: rgba(255, 192, 203, 0.4);
+    margin-bottom: 5px;
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    //是否全选
+    .orCheck {
+        width: 75px;
+
+        input {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    //商品信息
+    .sp-info {
+        flex: 1;
+        display: flex;
+        font-size: 12px;
+
+
+
+        .sp-name {
+            a {
+                font-size: 12px;
+
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+
+            }
+
+            dl {
+                box-sizing: border-box;
+                padding-left: 20px;
+
+
+                dd {
+                    float: left;
+                    margin: 0;
+                    margin-right: 5px;
+
+                }
+            }
+        }
+    }
+
+    //发货地
+    .sp-fhd {
+        width: 96px;
+        font-size: 12px;
+
+
+    }
+
+    //价格
+    .sp-pirce {
+        width: 96px;
+        font-size: 12px;
+    }
+
+    //数量
+    .sp-num {
+        width: 140px;
+        font-size: 12px;
+
+        dl {
+            padding-left: 35px;
+
+            dd {
+                float: left;
+                margin: 0;
+                padding: 0;
+                border: 1px solid grey;
+
+                input {
+                    width: 30px;
+                    height: 20px;
+                    outline: none;
+                    border: none;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                button {
+                    height: 20px;
+                    outline: none;
+                    border: none;
+                    padding: 0 3px;
+
+
+                    &:hover {
+                        cursor: pointer;
+                        background: red;
+                    }
+                }
+            }
+        }
+    }
+
+    //商品总价
+    .sp-total {
+        width: 110px;
+        font-size: 14px;
+        color: red;
+    }
+
+    //删除
+    .del {
+        width: 110px;
+        font-size: 12px;
+        position: relative;
+
+        .trueDel {
+
+            position: absolute;
+            width: 140px;
+            height: 70px;
+            background: lawngreen;
+            box-sizing: content-box;
+            padding-top: 10px;
+            display: none;
+        }
+    }
+
+}
+
+.addChecked .del:hover a {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.cartPrice {
+    // border: 1px solid white;
+    background: white;
+    padding: 10px 30px 20px;
+    font-size: 12px;
+
+    .cartAno {
+        display: flex;
+        justify-content: space-between;
+        height: 22px;
+        line-height: 22px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .f-all-left {
+        display: flex;
+
+        font-size: 12px;
+
+        .f-all {
+            margin: 0;
+            position: relative;
+        }
+
+        input {
+            width: 13px;
+            height: 14px;
+            position: absolute;
+            top: 3px;
+
+        }
+
+        label {
+            margin-left: 20px;
+            margin-right: 50px;
+        }
+
+
+    }
+
+
+    .bz-num,
+    .flkb {
+        display: flex;
+        justify-content: flex-end;
+
+        p {
+            margin-bottom: 0;
+
+            span {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .spjezj {
+        display: flex;
+        justify-content: flex-end;
+
+        b {
+            display: inline-block;
+            font-size: 30px;
+            font-weight: bolder;
+            color: red;
+        }
+    }
+
+    .jxgw {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            // padding: 5px 10px;
+            color: red;
+            border: 1px solid red;
+            width: 80px;
+            height: 27px;
+            text-align: center;
+            line-height: 27px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+        }
+
+        button {
+            padding: 10px 40px;
+            background: red;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+        }
+    }
+
+}
+
+.f-all-left .del-check:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.sp-info .pic {
+    cursor: pointer;
+}

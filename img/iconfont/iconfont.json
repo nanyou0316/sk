@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "291392",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "477450",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1054088",
+      "name": "微信",
+      "font_class": "weixin-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1067693",
+      "name": "微信",
+      "font_class": "icon",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "3416614",
+      "name": "微博",
+      "font_class": "weibo1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "3986279",
+      "name": "2.0五角心收藏",
+      "font_class": "wujiaoxinshoucang",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "3988593",
+      "name": "2.0五角心收藏不亮",
+      "font_class": "wujiaoxinshoucangbuliang",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "7142819",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}
